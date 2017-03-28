@@ -1,0 +1,266 @@
+/* Mixins */
+@mixin style-color($color-choice) {
+  background-color: $color-choice;
+}
+
+@mixin top-margin($top-position) {
+  margin-top: $top-position;
+}
+
+@mixin left-margin($left-position) {
+  margin-left: $left-position;
+}
+
+@mixin bottom-margin($bottom-position) {
+  margin-bottom: $bottom-position;
+}
+
+@mixin right-margin($right-position) {
+  margin-right: $right-position;
+}
+
+@mixin full-margin($position) {
+  margin: $position;
+}
+
+@mixin margin-query($arg) {
+  @media screen and (max-width: $arg) {
+    @content;
+  }
+}
+
+@mixin calculation($arg) {
+  width: calc($arg);
+}
+
+@mixin span($product, $button) {
+  span {
+    font-size: $product;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  span.category {
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+  span.button {
+    font-size: $button;
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+}
+
+@mixin width-calcuation($calculation) {
+  width: calc($calculation);
+}
+
+@mixin max-width($width) {
+  max-width: $width;
+}
+
+@mixin max-height($height) {
+  max-height: $height;
+}
+
+@mixin min-width($width) {
+  min-width: $width;
+}
+
+@mixin min-height($height) {
+  min-height: $height;
+}
+
+@mixin coffee-front {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(40% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+@mixin latte {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(40% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+@mixin espresso {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(35% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+@mixin muffin {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(20% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+@mixin cookie {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(15% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+@mixin front-pastry {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(45% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+@mixin coffee-content {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(35% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+@mixin snack {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(35% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+@mixin content-pastry {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(30% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+@mixin first-stuff {
+  width: calc(100% / 3 - 2rem);
+  position: relative;
+  color: white;
+
+  .product-content {
+    position: absolute;
+    top: calc(63% - 2rem);
+    left: calc(33% - 2rem);
+    width: 100%;
+  }
+  img {
+    width: calc(100% / 3 - 2rem);
+  }
+  @include span($product-font-size, $button-font-size);
+}
+
+@mixin left-border($left) {
+  border-left: $left;
+}
+
+@mixin both-borders($both) {
+  border-left: $both;
+  border-right: $both;
+}
+
+@mixin right-border($right) {
+  border-right: $right;
+}
+
+@mixin bottom-border($bottom) {
+  border-bottom: $bottom;
+}
+
+@mixin relative-position($position) {
+  position: relative;
+  float: $position;
+}
+
+@mixin absolute-position($position) {
+  position: $position;
+}
+
+@mixin dimensions($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin top-left($top, $left) {
+  top: $top;
+  left: $left;
+}
+
+@mixin rating($alignment) {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align:$alignment;
+}

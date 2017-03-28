@@ -1,0 +1,44 @@
+/* Variables */
+/* Fonts */
+$acme: 'Acme', serif;
+$aldrich: 'Aldrich', sans-serif;
+$amaranth: 'Amaranth', serif;
+
+/* Button colors */
+$color-white: white;
+$color-black: black;
+$color-red: red;
+$color-blue: blue;
+$color-green: green;
+
+/* Page Margins */
+/* Sizes */
+$full-width: 100%;
+$full-height: 100%;
+
+$quarter-width: 25%;
+$quarter-height: 25%;
+
+$half-width: 50%;
+$half-height: 50%;
+
+$threequarter-width: 75%;
+$threequater-height: 75%;
+
+/* Colors */
+$light-green-1: #85e085;
+
+/* Font */
+$product-font-size: 25px;
+$button-font-size: 10px;
+
+/* Calculations */
+$thirds: calc(100% / 3);
+$two-thirds: calc(100% / 3 * 2);
+
+/* Custom */
+$border-1: 3px solid red;
+$border-2: 3px solid black;
+$opacity-1: 0.6;
+$opacity-2: 0.9;
+$display-1: inline-block;
