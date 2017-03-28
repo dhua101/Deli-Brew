@@ -83,25 +83,25 @@
           <!-- Indication of Sales and Menu Slider -->
           <div id="menu-sales" class="carousel slide" data-ride="carousel" data-interval="4000">
             <ol class="carousel-indicators">
-              <li onclick="$('#imageDisplay1').attr('src',http://localhost/Deli%20Brew%20-%20SASS/menu1.gif' + '?' + new Date().getTime())" data-target="#menu-sales" data-slide-to="0" class="active"></li>
-              <li onclick="$('#imageDisplay2').attr('src',http://localhost/Deli%20Brew%20-%20SASS/menu4.gif' + '?' + new Date().getTime())" data-target="#menu-sales" data-slide-to="1"></li>
-              <li onclick="$('#imageDisplay3').attr('src',http://localhost/Deli%20Brew%20-%20SASS/menu3.gif' + '?' + new Date().getTime())" data-target="#menu-sales" data-slide-to="2"></li>
-              <li onclick="$('#imageDisplay4').attr('src',http://localhost/Deli%20Brew%20-%20SASS/menu2.gif' + '?' + new Date().getTime())" data-target="#menu-sales" data-slide-to="2"></li>
+              <li onclick="$('#imageDisplay1').attr('src',http://localhost/Deli%20Brew/menu1.gif' + '?' + new Date().getTime())" data-target="#menu-sales" data-slide-to="0" class="active"></li>
+              <li onclick="$('#imageDisplay2').attr('src',http://localhost/Deli%20Brew/menu4.gif' + '?' + new Date().getTime())" data-target="#menu-sales" data-slide-to="1"></li>
+              <li onclick="$('#imageDisplay3').attr('src',http://localhost/Deli%20Brew/menu3.gif' + '?' + new Date().getTime())" data-target="#menu-sales" data-slide-to="2"></li>
+              <li onclick="$('#imageDisplay4').attr('src',http://localhost/Deli%20Brew/menu2.gif' + '?' + new Date().getTime())" data-target="#menu-sales" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for the Slider -->
             <div class="carousel-inner content-margin" role="listbox">
               <div class="item active">
-                <img id="imageDisplay1" src="http://localhost/Deli%20Brew%20-%20SASS/menu1.gif" onload="setTimeout('document.getElementById(\'imageDisplay1\').src=\http://localhost/Deli%20Brew%20-%20SASS/menu1.gif?\'+new Date().getMilliseconds()',1000)">
+                <img id="imageDisplay1" src="http://localhost/Deli%20Brew/menu1.gif" onload="setTimeout('document.getElementById(\'imageDisplay1\').src=\http://localhost/Deli%20Brew/menu1.gif?\'+new Date().getMilliseconds()',1000)">
               </div>
               <div class="item">
-                <img id="imageDisplay2" src="http://localhost/Deli%20Brew%20-%20SASS/menu4.gif" onload="setTimeout('document.getElementById(\'imageDisplay2\').src=\http://localhost/Deli%20Brew%20-%20SASS/menu4.gif?\'+new Date().getMilliseconds()',1000)">
+                <img id="imageDisplay2" src="http://localhost/Deli%20Brew/menu4.gif" onload="setTimeout('document.getElementById(\'imageDisplay2\').src=\http://localhost/Deli%20Brew/menu4.gif?\'+new Date().getMilliseconds()',1000)">
               </div>
               <div class="item">
-                <img id="imageDisplay3" src="http://localhost/Deli%20Brew%20-%20SASS/menu3.gif" onload="setTimeout('document.getElementById(\'imageDisplay3\').src=\http://localhost/Deli%20Brew%20-%20SASS/menu3.gif?\'+new Date().getMilliseconds()',1000)">
+                <img id="imageDisplay3" src="http://localhost/Deli%20Brew/menu3.gif" onload="setTimeout('document.getElementById(\'imageDisplay3\').src=\http://localhost/Deli%20Brew/menu3.gif?\'+new Date().getMilliseconds()',1000)">
               </div>
               <div class="item">
-                <img id="imageDisplay4" src="http://localhost/Deli%20Brew%20-%20SASS/menu2.gif" onload="setTimeout('document.getElementById(\'imageDisplay4\').src=\http://localhost/Deli%20Brew%20-%20SASS/menu2.gif?\'+new Date().getMilliseconds()',1000)">
+                <img id="imageDisplay4" src="http://localhost/Deli%20Brew/menu2.gif" onload="setTimeout('document.getElementById(\'imageDisplay4\').src=\http://localhost/Deli%20Brew/menu2.gif?\'+new Date().getMilliseconds()',1000)">
               </div>
             </div>
 
@@ -146,7 +146,7 @@
                   </a>
                 </div>
                 <div class="cell">
-                  <img src="http://localhost/Deli%20Brew%20-%20SASS/menu5.jpg" class="responsive-image" alt="stuff" style="width:100%">
+                  <img src="http://localhost/Deli%20Brew/menu5.jpg" class="responsive-image" alt="stuff" style="width:100%">
                 </div>
                 <div class="cell">
                   <a href="pastry.php">
@@ -157,7 +157,7 @@
             </div>
 
             <div class="col-xs-12">
-              <img src="http://localhost/Deli%20Brew%20-%20SASS/menu6.jpg" class="responsive-image" alt="drinks" style="width:100%">
+              <img src="http://localhost/Deli%20Brew/menu6.jpg" class="responsive-image" alt="drinks" style="width:100%">
             </div>
           </div>
         </div>
