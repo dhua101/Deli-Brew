@@ -208,7 +208,7 @@
               <li>Apple Turnover</li>
               <li><a href="mooncake.php">Mooncake</a></li>
               <li><a href="macaron.php">Macaron</a></li>
-              <li><a href="cinnamin-roll.php">Cinnamin Roll</a></li>
+              <li><a href="cinnamon-roll.php">Cinnamin Roll</a></li>
               <li><a href="eclair.php">Eclair</a></li>
             </ul>
           </div>
